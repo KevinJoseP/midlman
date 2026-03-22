@@ -37,7 +37,7 @@
   <img src="https://github.com/user-attachments/assets/placeholder-demo" alt="midlman demo" width="600" />
 </p>
 
-<p align="center"><em>Press <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → Edit → Press <kbd>↵</kbd> → Pasted.</em></p>
+<p align="center"><em>Press <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → Edit → Press <kbd>Enter</kbd> → Pasted.</em></p>
 
 <br/>
 
@@ -53,7 +53,7 @@ So you open a scratchpad, paste, edit, copy again, switch back, paste. **Five st
 
 ## The Solution
 
-**midlman** sits invisibly in your menu bar. When you press <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd>, a minimal floating editor appears with your clipboard contents, ready to edit. Press <kbd>↵ Enter</kbd> and the edited text is pasted directly into whatever app you were using. That's it.
+**midlman** sits invisibly in your menu bar. When you press <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd>, a minimal floating editor appears with your clipboard contents, ready to edit. Press <kbd>Enter</kbd> and the edited text is pasted directly into whatever app you were using. That's it.
 
 No Dock icon. No window to manage. No data leaves your machine.
 
@@ -84,7 +84,7 @@ cd midlman/midlman
 open midlman.xcodeproj
 ```
 
-In Xcode: set your **Signing Team**, then hit <kbd>⌘</kbd><kbd>R</kbd> to build and run.
+In Xcode: set your **Signing Team**, then hit <kbd>Cmd</kbd> + <kbd>R</kbd> to build and run.
 
 **Requires:** macOS 14 Sonoma or later, Xcode 15+
 
@@ -104,14 +104,14 @@ In Xcode: set your **Signing Team**, then hit <kbd>⌘</kbd><kbd>R</kbd> to buil
 
 **1. Copy something as usual**
 
-Copy any text with <kbd>⌘</kbd><kbd>C</kbd> — a link, code snippet, message, anything.
+Copy any text with <kbd>Cmd</kbd> + <kbd>C</kbd> — a link, code snippet, message, anything.
 
 </td>
 <td width="50%" valign="top">
 
 **2. Invoke midlman**
 
-Press <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> instead of the regular paste shortcut. A floating editor appears instantly with your clipboard contents.
+Press <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> instead of the regular paste shortcut. A floating editor appears instantly with your clipboard contents.
 
 </td>
 </tr>
@@ -120,14 +120,14 @@ Press <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> instead of the regular paste shor
 
 **3. Edit freely**
 
-The editor is a full text field — add, remove, rearrange. Use <kbd>⇧</kbd><kbd>↵</kbd> for new lines. The monospaced font keeps things readable.
+The editor is a full text field — add, remove, rearrange. Use <kbd>Shift</kbd> + <kbd>Enter</kbd> for new lines. The monospaced font keeps things readable.
 
 </td>
 <td width="50%" valign="top">
 
 **4. Paste in one shot**
 
-Press <kbd>↵ Enter</kbd> — the editor closes, your previous app regains focus, and the edited text is pasted automatically. Done.
+Press <kbd>Enter</kbd> — the editor closes, your previous app regains focus, and the edited text is pasted automatically. Done.
 
 </td>
 </tr>
@@ -137,11 +137,11 @@ Press <kbd>↵ Enter</kbd> — the editor closes, your previous app regains focu
 
 | Shortcut | Action |
 |:---------|:-------|
-| <kbd>⌘</kbd> <kbd>⌥</kbd> <kbd>V</kbd> | Open the editor with current clipboard |
-| <kbd>↵</kbd> Enter | Confirm edit and paste into the target app |
-| <kbd>⇧</kbd> <kbd>↵</kbd> Shift+Enter | Insert a new line inside the editor |
-| <kbd>⌘</kbd> <kbd>↵</kbd> Cmd+Enter | Insert a new line inside the editor |
-| <kbd>ESC</kbd> | Cancel — close the editor, clipboard unchanged |
+| <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> | Open the editor with current clipboard |
+| <kbd>Enter</kbd> | Confirm edit and paste into the target app |
+| <kbd>Shift</kbd> + <kbd>Enter</kbd> | Insert a new line inside the editor |
+| <kbd>Cmd</kbd> + <kbd>Enter</kbd> | Insert a new line inside the editor |
+| <kbd>Esc</kbd> | Cancel — close the editor, clipboard unchanged |
 
 ### Menu bar options
 
@@ -155,12 +155,12 @@ Click the pencil icon in the menu bar to access:
 
 | Scenario | What you'd do |
 |:---------|:-------------|
-| **Clean a URL** | Copy a link with UTM params → <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → delete the `?utm_...` suffix → <kbd>↵</kbd> |
-| **Fix a typo before sending** | Copy a message → <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → fix the typo → <kbd>↵</kbd> |
-| **Trim whitespace** | Copy text with leading/trailing spaces → <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → trim → <kbd>↵</kbd> |
-| **Extract part of a block** | Copy a paragraph → <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → keep only the sentence you need → <kbd>↵</kbd> |
-| **Reformat a snippet** | Copy a code block → <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → adjust indentation or syntax → <kbd>↵</kbd> |
-| **Compose from clipboard** | Copy a name/value → <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> → wrap it in a sentence → <kbd>↵</kbd> |
+| **Clean a URL** | Copy a link with UTM params → <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → delete the `?utm_...` suffix → <kbd>Enter</kbd> |
+| **Fix a typo before sending** | Copy a message → <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → fix the typo → <kbd>Enter</kbd> |
+| **Trim whitespace** | Copy text with leading/trailing spaces → <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → trim → <kbd>Enter</kbd> |
+| **Extract part of a block** | Copy a paragraph → <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → keep only the sentence you need → <kbd>Enter</kbd> |
+| **Reformat a snippet** | Copy a code block → <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → adjust indentation or syntax → <kbd>Enter</kbd> |
+| **Compose from clipboard** | Copy a name/value → <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> → wrap it in a sentence → <kbd>Enter</kbd> |
 
 <br/>
 
@@ -214,18 +214,18 @@ Click the pencil icon in the menu bar to access:
 | Module | Responsibility |
 |:-------|:--------------|
 | **ClipboardEditorApp** | App entry point — SwiftUI lifecycle with AppKit bridge for menu bar and system integration |
-| **KeyboardMonitor** | Installs a global `CGEvent` tap to intercept <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> at the session level |
+| **KeyboardMonitor** | Installs a global `CGEvent` tap to intercept <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> at the session level |
 | **ClipboardManager** | Singleton wrapper around `NSPasteboard` for reading and writing clipboard text |
 | **EditorWindowController** | Creates and manages a borderless, always-on-top `NSWindow` that hosts the SwiftUI editor |
 | **EditorView** | SwiftUI view with glassmorphic styling — translucent materials, gradient borders, keyboard shortcut badges |
-| **PasteSimulator** | Simulates <kbd>⌘</kbd><kbd>V</kbd> via `CGEvent` posted to the HID event tap, with an AppleScript fallback |
+| **PasteSimulator** | Simulates <kbd>Cmd</kbd> + <kbd>V</kbd> via `CGEvent` posted to the HID event tap, with an AppleScript fallback |
 
 ### Design decisions
 
 - **SwiftUI + AppKit hybrid** — SwiftUI handles the editor UI; AppKit handles the parts SwiftUI can't (global event taps, menu bar, borderless windows with keyboard focus)
 - **CGEvent tap** — operates at the session level for reliable global hotkey detection without polling
 - **Borderless floating window** — custom `NSWindow` subclass that overrides `canBecomeKey` and `canBecomeMain` to accept keyboard input despite having no title bar
-- **100ms paste delay** — gives the target app time to regain focus before the simulated <kbd>⌘</kbd><kbd>V</kbd> arrives
+- **100ms paste delay** — gives the target app time to regain focus before the simulated <kbd>Cmd</kbd> + <kbd>V</kbd> arrives
 - **No App Sandbox** — required for `CGEvent` taps to function; the app has zero network calls
 
 <br/>
@@ -238,8 +238,8 @@ Click the pencil icon in the menu bar to access:
 
 midlman requires **Accessibility** permission to function. This is needed for two things:
 
-1. **Intercepting** the global <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> shortcut (via `CGEvent` tap)
-2. **Simulating** the <kbd>⌘</kbd><kbd>V</kbd> paste keystroke (via `CGEvent` post)
+1. **Intercepting** the global <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> shortcut (via `CGEvent` tap)
+2. **Simulating** the <kbd>Cmd</kbd> + <kbd>V</kbd> paste keystroke (via `CGEvent` post)
 
 On first launch, the app will prompt you and open **System Settings → Privacy & Security → Accessibility**. Toggle midlman on, then the app will automatically detect the permission and start working.
 
@@ -256,10 +256,10 @@ On first launch, the app will prompt you and open **System Settings → Privacy 
 
 | Issue | Solution |
 |:------|:---------|
-| <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd> does nothing | Open **System Settings → Privacy & Security → Accessibility** and make sure midlman is enabled. Restart the app after granting permission. |
+| <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd> does nothing | Open **System Settings → Privacy & Security → Accessibility** and make sure midlman is enabled. Restart the app after granting permission. |
 | Editor appears but paste doesn't work | The target app may not have regained focus in time. Try again — if persistent, toggle Accessibility permission off and on. |
 | "Unidentified developer" warning | Right-click the app → **Open**. This is a one-time macOS Gatekeeper prompt for non-notarized apps. |
-| Editor doesn't show clipboard content | Make sure you've copied text (not an image/file) to the clipboard before pressing <kbd>⌘</kbd><kbd>⌥</kbd><kbd>V</kbd>. |
+| Editor doesn't show clipboard content | Make sure you've copied text (not an image/file) to the clipboard before pressing <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>V</kbd>. |
 | App not in menu bar after launch | Check that the app is running (Activity Monitor → search "midlman"). If your menu bar is full, the icon may be hidden — try closing other menu bar apps. |
 
 <br/>
